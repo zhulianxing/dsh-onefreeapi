@@ -1,0 +1,17 @@
+{
+  "name": "dsh-onefreeapi",
+  "version": "0.1.0",
+  "description": "OneFreeAPI LLM gateway as an MCP server — access Kimi K3, GLM-5.2, DeepSeek V3, Doubao Seed 1.6, Qwen behind one OpenAI-compatible API. Zero-dependency single-file Node.",
+  "type": "module",
+  "main": "mcp-server.js",
+  "bin": { "dsh-onefreeapi": "./mcp-server.js" },
+  "engines": { "node": ">=18" },
+  "files": ["mcp-server.js", "README.md"],
+  "keywords": [
+    "dsh", "dsh-plugin", "deepseek-harness", "onefreeapi",
+    "model-context-protocol", "mcp-server", "llm", "api-gateway",
+    "openai-compatible", "kimi", "qwen", "deepseek", "glm"
+  ],
+  "author": "zhulianxing",
+  "license": "MIT"
+}
